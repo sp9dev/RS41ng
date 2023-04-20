@@ -11,7 +11,7 @@
  */
 
 // Set the tracker amateur radio call sign here
-#define CALLSIGN "MYCALL"
+#define CALLSIGN "SP9DEV"
 
 // Disabling LEDs will save power
 // Red LED: Lit during initialization and transmit.
@@ -126,7 +126,7 @@
 #define RADIO_SI4032_TX_FREQUENCY_APRS_1200 432500000
 // Use a frequency offset to place FSK tones slightly above the defined frequency for SSB reception
 #define RADIO_SI4032_TX_FREQUENCY_HORUS_V1  432501000
-#define RADIO_SI4032_TX_FREQUENCY_HORUS_V2  432501000
+#define RADIO_SI4032_TX_FREQUENCY_HORUS_V2  437701000
 
 /**
  * External Si5351 radio chip transmission configuration
@@ -198,9 +198,9 @@
 // See APRS symbol table documentation in: http://www.aprs.org/symbols/symbolsX.txt
 #define APRS_SYMBOL_TABLE '/' // '/' denotes primary and '\\' denotes alternate APRS symbol table
 #define APRS_SYMBOL 'O'
-#define APRS_COMMENT "RS41ng radiosonde firmware test"
+#define APRS_COMMENT "AGH Space Systems"
 #define APRS_RELAYS "WIDE1-1,WIDE2-1"
-#define APRS_DESTINATION "APZ41N"
+#define APRS_DESTINATION "APZDEV"
 #define APRS_DESTINATION_SSID '0'
 // Generate an APRS weather report instead of a position report. This will override the APRS symbol with the weather station symbol.
 #define APRS_WEATHER_REPORT_ENABLE false
@@ -241,7 +241,7 @@
 
 // NOTE: Payload ID 256 (4FSKTEST-V2) is for testing purposes only, and should not be used on an actual flight.
 // Please request a new payload ID in GitHub according to the instructions at: https://github.com/projecthorus/horusdemodlib/wiki#how-do-i-transmit-it
-#define HORUS_V2_PAYLOAD_ID 256
+#define HORUS_V2_PAYLOAD_ID 268
 #define HORUS_V2_BAUD_RATE_SI4032 100
 #define HORUS_V2_BAUD_RATE_SI5351 50
 #define HORUS_V2_PREAMBLE_LENGTH 16

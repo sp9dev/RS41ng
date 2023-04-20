@@ -78,13 +78,13 @@ char *pip_message_templates[] = {
  * Note that many hardware APRS receivers show a limited number of APRS comment characters, such as 43 or 67 chars.
  */
 char *aprs_comment_templates[] = {
-//        " B$bu $teC $hu% $prmb $hh:$mm:$ss @ $tow ms - " APRS_COMMENT,
+        " B$bv $teC $prmb $clm/s climb $hh:$mm:$ss - " APRS_COMMENT,
 //        " B$bu $teC $hu% $prmb - " APRS_COMMENT,
 //        " B$bu $loc12 $hh:$mm:$ss - " APRS_COMMENT,
 //        " $loc12 - " APRS_COMMENT,
 //        " $teC $hu% $prmb PC $pc RI $ri uR/h - " APRS_COMMENT,
 //        " " APRS_COMMENT,
-        NULL
+//        NULL
 };
 
 /**
